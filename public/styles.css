@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(230, 228, 228);
+    display: flex;
+    width: 100%;
+}
+.container{
+    display: block;
+    width: 32em;
+}
+.card{
+    background: linear-gradient(lightblue,slateblue 10%, blue 20%);
+}
+.card-header{
+    background: none;
+    width: 100%;
+}
+.card-header img{
+    display: block;
+    margin: auto;
+    margin-bottom: 0.7em;
+    width: 3em;
+}
+.card-header .center{
+    background: none;
+    display: block;
+    width: 100%;
+}
+.card-text .form-control input{
+    display: block;
+    width: 100%;
+}
+.card-footer{
+    background: none;
+    display: block;
+    margin: 0 auto;
+}
+.card-footer .btn{
+    display: block;
+    margin: 0.7rem auto;
+    /*margin-top: 0.7rem;*/
+}
+.card-footer .btn-success{
+    display: block;
+    font-size: 25px;
+    padding: 0.5em;
+    text-align: center;
+}
